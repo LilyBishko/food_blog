@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Poppins&family=Titillium+Web:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --title-font: 'Poppins', sans-serif;
+    --text-font: 'Exo', sans-serif;
+    --main-color: #4169E1;
+    --details-color: #fbec5d;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.logo_name {
+    font-family: var(--title-font);
+    font-size: 45px;
+}
+.logo_words {
+   padding-left: 20px;
+}
+
+.header {
+    position:fixed;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nav {
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.nav_list {
+    display: flex;
+    list-style: none;
+    font-family: var(--text-font);
+    font-size: 25px;
+}
+
+.nav_link a {
+    text-decoration: none;
+    padding-left: 15px;
+}
