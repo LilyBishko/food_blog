@@ -5,19 +5,24 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="shortcut icon" href="img/food_logo.svg" type="image/x-icon">
        <link rel="stylesheet" href="index.css">
+       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
        <title>Ukrainian Food</title>
    </head>
    <body>
          <header class="header">
                 <div class="logo_name"><span class="logo_words first_word">UKRAINIAN</span><span class="logo_words second_word">RECIPES</span></div>
-                <div class="nav"> 
+                <input type="checkbox" id="check">
+                <label for="check" class="icon">
+                     <i class='bx bx-menu' id="menu-icon"></i>
+                     <i class='bx bx-x' id="close-icon"></i>
+                </label>
+                <nav class="nav"> 
                    <ul class="nav_list">
-                      <li class="nav_link"><a href="ukrainian cuisine/cuisine.html">Ukrainian Cuisine</a></li>
                       <li class="nav_link"><a href="recipes/recipes.html">Recipes</a></li>
-                      <li class="nav_link"><a href="chefs/chefs.html">Best Chefs</a></li>
-                      <li class="nav_link"><a href="food blog/blog.html">Food Blog</a></li>
+                      <li class="nav_link"><a href="chefs/chefs.html">Chefs</a></li>
+                      <li class="nav_link"><a href="food blog/blog.html">Blog</a></li>
                    </ul>
-                </div>
+                </nav>
          </header>
 </body>
 </html>
