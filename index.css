@@ -21,13 +21,14 @@ body {
 .header {
     position: fixed;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     width: 100%;
     padding: 1,3rem 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    border-bottom: 1px solid #000000;
 }
 
 
@@ -38,7 +39,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(249, 249, 249, 0.1);
     backdrop-filter: blur(50px); 
     z-index: -1;
 }
@@ -60,7 +61,7 @@ body {
     transition: color 0.3s;
 
  &:hover {
-    color: red;
+    color: rgba(42, 130, 55, 0.783);
  }
 
  &:before {
@@ -83,10 +84,10 @@ body {
     margin-left: 10px;
 }
 
-.logo_name {
-    font-size: 2rem;
-    font-family: var(--title-font);
-    font-weight: 700;
+.logo {
+    width: 80px;
+    height: auto;
+    margin-left: 60px;
 }
 
 .nav a {
@@ -164,4 +165,16 @@ body {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+}
+.info-block {
+    display: flex;
+    justify-content: space-around; /* розподіляє вільний простір навколо елементів */
+    align-items: center; /* вирівнювання елементів по центру в поперечному напрямку */
+    padding: 10px 20px;
+    background-color: #f5f5f5;
 }
